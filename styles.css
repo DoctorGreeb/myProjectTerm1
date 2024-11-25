@@ -1,0 +1,223 @@
+.topStripe {
+    background-color: rgb(255, 206, 206);
+    height: 50px;
+    width: 100%;
+}
+
+marquee {
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+
+.topStripe2 {
+    background-color: rgba(252, 255, 206, 0);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.logo {
+    background-color: rgba(139, 139, 139, 0);
+    width: 280px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.linkIndex {
+    background-color: rgba(0, 0, 0, 0);
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.imgLogo {
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+.imgLogo:hover {
+    transform: scale(1.02);
+}
+.buttonsStripe {
+    background-color: rgba(224, 224, 224, 0);
+    width: 580px;
+    height: 100px;
+    margin-right: 25px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.buttonS1 {
+    width: 200px;
+    height: 35px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 2px solid darkcyan;
+}
+.buttonS1:hover {
+    background-color: darkcyan;
+}
+.buttonS1:hover .buttonSText {
+    color: white;
+}
+
+.buttonSText {
+    margin-top: 5px;
+    color:darkcyan;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyMain {
+    background-color: rgba(194, 228, 255, 0);
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.bodyFeed {
+    background-color: rgba(194, 175, 202, 0);
+    height: 100%;
+    width: 50%;
+}
+.bodyFeedSub1 {
+    background-color: rgba(91, 181, 255, 0.185);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.bodyFeedSub1Internal {
+    background-color: aliceblue;
+    height: 90%;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    /* transition: transform 0.3s ease, color 0.3s ease, height 0.3s ease; */
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+
+.bodyFeedSub1InternalPic {
+    width: 290%;
+}
+.bodyFeedSub1InternalTxt {
+    padding: 10px;
+}
+.bodyFeedSub1Internal:hover {
+    background-color: rgb(0, 139, 139);
+    color: aliceblue;
+}
+.bodyFeedSub1Internal:active {
+    background-color: rgba(0, 139, 139, 0.678);
+    color: rgb(255, 255, 255);
+
+}
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+.text1 {
+    font-family: 'arial', sans-serif;
+    font-size: 20px;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+.text2 {
+    font-family: 'arial', sans-serif;
+    font-size: 15px;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+
+.bodyFeedSub2 {
+    background-color: rgba(185, 255, 197, 0);
+    height: 60%;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px;
+    gap: 20px;
+    grid-auto-flow: dense;
+    
+    
+}
+.bodyFeedSub2Internal {
+    background-color: aliceblue;
+    height: 200px;
+    width: 100%;
+    transition: transform 0.3s, height 0.3s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.bodyFeedSub2Internal:hover .bodyFeedSub2InternalPic {
+    transform: scale(1.02);
+}
+.bodyFeedSub2InternalPic {
+    height: 100%;
+    max-width: auto;
+    transition: transform 0.3s;
+
+
+}
+.cover1 {
+    position: absolute; /* Установим абсолютное позиционирование для cover1 */
+    top: 100px; /* Разместим его вверху контейнера */
+    left: 0; /* И слева */
+    width: 100%; /* Обеспечим полную ширину */
+    height: 50%; /* Высота 50% для эффекта наложения */
+    background-color: rgba(240, 248, 255, 0.473);
+    z-index: 1;
+}
+
+
+.bottomStripe {
+    background-color: rgb(139, 139, 139);
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width: 1555px) {
+    .bodyFeedSub1Internal {
+        height: 65%;
+        
+    }
+}
+
+@media (max-width: 880px) {
+    .topStripe2 {
+        height: 150px;
+        gap: 50px;
+        
+    }
+    .buttonsStripe {
+        height: 150px;
+        display: block;
+        
+    }
+    .logo {
+        height: 150px;
+    }
+}
