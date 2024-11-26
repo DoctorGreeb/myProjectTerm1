@@ -266,6 +266,9 @@ a:link, a:visited, a:hover, a:active {
         margin-left: -40px;
         scale: 0.8;
     }
+    .bodyFeedSub1 {
+        width: 120%;
+    }
 }
 
 @media (min-width: 2500px) {

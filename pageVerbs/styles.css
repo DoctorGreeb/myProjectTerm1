@@ -105,3 +105,17 @@ p:hover {
     transform: translateX(60px);
     cursor: none;
 }
+
+@media (max-width: 760px) {
+    .feed1 {
+        width: 150%;
+    }
+    .buttonsStripe {
+        display:block;
+      }
+    .topStripe2 {
+        height: 130px;
+        gap: 50px;
+        
+    }
+}

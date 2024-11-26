@@ -16,3 +16,4 @@ document.addEventListener('mousemove', (e) => {
     const background = document.querySelector('.background2');
     background.style.transform = `translate(${x * -25}px, ${y * -25}px)`; // Перемещение фона в зависимости от курсора
 });
+
