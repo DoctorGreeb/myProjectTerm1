@@ -1,5 +1,5 @@
 .topStripe {
-    background-color: rgb(255, 206, 206);
+    background-color: rgba(206, 249, 255, 0.507);
     height: 50px;
     width: 100%;
 }
@@ -220,4 +220,46 @@ a:link, a:visited, a:hover, a:active {
     .logo {
         height: 150px;
     }
+}
+
+.background {
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db00; /* Цвет фона */
+    transition: transform 0.1s ease; /* Плавный переход */
+    background-image: url('bg1.png'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Растянуть изображение по размеру контейнера */
+    background-position: center;
+    filter: blur(1px);
+}
+.background2 {
+    position: fixed;
+    z-index: -3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db00; /* Цвет фона */
+    transition: transform 0.1s ease; /* Плавный переход */
+    background-image: url('bg2.png'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Растянуть изображение по размеру контейнера */
+    background-position: center;
+    filter: blur(4px);
+}
+.background3 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #83c3ee59; /* Цвет фона */
+    transition: transform 0.1s ease; /* Плавный переход */
+    background-size: cover; /* Растянуть изображение по размеру контейнера */
+    background-position: center;
+    filter: blur(10px);
 }
