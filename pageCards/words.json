@@ -1,0 +1,8 @@
+[
+    { "english": "hello", "translation": "привет" },
+    { "english": "world", "translation": "мир" },
+    { "english": "cat", "translation": "кот" },
+    { "english": "dog", "translation": "собака" },
+    { "english": "sun", "translation": "солнце" }
+  ]
+  

@@ -143,12 +143,32 @@ a:link, a:visited, a:hover, a:active {
     font-size: 20px;
     padding-top: 100%;
     padding-bottom: 100%;
+    position: relative;
+    z-index: 2;
 }
 .text2 {
     font-family: 'arial', sans-serif;
     font-size: 15px;
     padding-top: 100%;
     padding-bottom: 100%;
+}
+.textCardLink {
+    padding-top: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    z-index: 2;
+}
+.textCardP {
+    margin-top: 10%;
+    padding-bottom: 100%;
+    text-align: center;
+    font-family: 'arial', sans-serif;
+    text-shadow: 0 3px 10px rgb(0, 0, 0);
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+    z-index: 2;
+
 }
 
 .bodyFeedSub2 {
